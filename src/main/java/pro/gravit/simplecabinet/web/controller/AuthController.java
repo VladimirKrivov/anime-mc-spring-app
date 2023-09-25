@@ -11,6 +11,7 @@ import pro.gravit.simplecabinet.web.exception.EntityNotFoundException;
 import pro.gravit.simplecabinet.web.service.*;
 import pro.gravit.simplecabinet.web.utils.SecurityUtils;
 
+
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
@@ -35,6 +36,7 @@ public class AuthController {
         var result = registerService.register(request.username, request.email, request.password);
         return new RegisterResponse(result.id()); // TODO
     }
+
 
     @PostMapping("/authorize")
     public ResponseEntity<AuthResponse> auth(@RequestBody AuthRequest request) {

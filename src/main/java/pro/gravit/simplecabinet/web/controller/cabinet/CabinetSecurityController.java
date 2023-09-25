@@ -7,6 +7,7 @@ import pro.gravit.simplecabinet.web.exception.InvalidParametersException;
 import pro.gravit.simplecabinet.web.service.PasswordCheckService;
 import pro.gravit.simplecabinet.web.service.UserService;
 
+
 @RestController
 @RequestMapping("/cabinet/security")
 public class CabinetSecurityController {

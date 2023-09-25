@@ -17,6 +17,7 @@ import pro.gravit.simplecabinet.web.service.storage.StorageService;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
+
 @RestController
 @RequestMapping("/cabinet")
 public class CabinetController {

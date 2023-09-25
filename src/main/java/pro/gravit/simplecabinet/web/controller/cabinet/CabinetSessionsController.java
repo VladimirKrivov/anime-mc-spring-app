@@ -9,6 +9,7 @@ import pro.gravit.simplecabinet.web.exception.EntityNotFoundException;
 import pro.gravit.simplecabinet.web.service.SessionService;
 import pro.gravit.simplecabinet.web.service.UserService;
 
+
 @RestController
 @RequestMapping("/cabinet/sessions")
 public class CabinetSessionsController {

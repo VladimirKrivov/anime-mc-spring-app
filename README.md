@@ -1,4 +1,4 @@
-# SimpleCabinetWebAPI
+# AnimeMcCabinetApi
 Бекенд SimpleCabinet 2, предоставляющий весь функционал в виде API
 #### Запуск
 - Выполните команду `java -jar web-XXXX.jar` для создания примера конфигурации

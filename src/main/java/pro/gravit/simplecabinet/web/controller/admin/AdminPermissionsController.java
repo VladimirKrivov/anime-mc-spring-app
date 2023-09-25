@@ -11,6 +11,7 @@ import pro.gravit.simplecabinet.web.service.UserGroupService;
 import pro.gravit.simplecabinet.web.service.UserPermissionService;
 import pro.gravit.simplecabinet.web.service.UserService;
 
+
 @RestController
 @RequestMapping("/admin/permissions")
 public class AdminPermissionsController {

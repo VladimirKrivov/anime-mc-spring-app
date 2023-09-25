@@ -4,9 +4,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import pro.gravit.simplecabinet.web.exception.AbstractCabinetException;
 import pro.gravit.simplecabinet.web.exception.EntityNotFoundException;
+
 
 @ControllerAdvice
 public class CustomRestExceptionHandler {

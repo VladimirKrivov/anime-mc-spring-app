@@ -14,6 +14,7 @@ import pro.gravit.simplecabinet.web.service.UserService;
 
 import java.util.UUID;
 
+
 @RestController
 @RequestMapping("/admin/money")
 public class AdminMoneyController {

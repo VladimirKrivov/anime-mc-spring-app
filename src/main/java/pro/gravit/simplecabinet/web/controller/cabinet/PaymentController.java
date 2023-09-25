@@ -12,6 +12,7 @@ import pro.gravit.simplecabinet.web.service.payment.*;
 
 import javax.servlet.http.HttpServletRequest;
 
+
 @RestController
 @RequestMapping("/cabinet/payment")
 public class PaymentController {

@@ -3,10 +3,7 @@ package pro.gravit.simplecabinet.web.controller.admin;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestPart;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import pro.gravit.simplecabinet.web.controller.cabinet.CabinetController;
 import pro.gravit.simplecabinet.web.exception.InvalidParametersException;
@@ -15,6 +12,7 @@ import pro.gravit.simplecabinet.web.service.storage.StorageService;
 
 import java.io.IOException;
 import java.net.URL;
+
 
 @RestController
 @RequestMapping("/admin/upload")
