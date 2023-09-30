@@ -14,6 +14,7 @@ import pro.gravit.simplecabinet.web.utils.SecurityUtils;
 
 @RestController
 @RequestMapping("/auth")
+
 public class AuthController {
     @Autowired
     private UserService userService;
